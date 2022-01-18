@@ -1,0 +1,20 @@
+.IPPcode21
+DEFVAR LF@a
+READ LF@a int
+WRITE LF@a
+DEFVAR GF@string
+MOVE GF@string string@Testovaci_string
+CONCAT LF@a LF@a string@hoj
+DEFVAR LF@len
+STRLEN LF@len LF@a
+GETCHAR LF@a LF@a int@6
+SETCHAR LF@a int@0 LF@a
+TYPE LF@a LF@len
+LABEL end
+JUMPIFEQ end2 LF@a string@a
+JUMPIFNEQ end2 LF@a string@int2
+JUMP end 
+LABEL end2
+DPRINT LF@len
+BREAK
+EXIT int@8

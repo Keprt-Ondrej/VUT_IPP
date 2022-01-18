@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<program language="IPPcode21" name="Stack test">   
+
+    <instruction order="0" opcode="write">
+        <arg1 type="string">Hello main   </arg1>
+    </instruction>
+
+    <instruction order="1" opcode="call">
+        <arg1 type="label">myfunc3</arg1>
+    </instruction>    
+
+    <instruction order="10" opcode="exit">
+        <arg1 type="int">5</arg1>
+    </instruction>
+
+    <instruction order="30" opcode="label">
+        <arg1 type="label">myfunc1</arg1>
+    </instruction>
+
+    <instruction order="31" opcode="write">
+        <arg1 type="string">Funkce 1         </arg1>
+    </instruction>
+    <instruction order="32" opcode="call">
+        <arg1 type="label">myfunc2</arg1>
+    </instruction>
+    <instruction order="33" opcode="write">
+        <arg1 type="string">Funkce 1 za callem         </arg1>
+    </instruction>
+
+    <instruction order="34" opcode="return">        
+    </instruction>
+    
+    <instruction order="50" opcode="label">
+        <arg1 type="label">myfunc2</arg1>
+    </instruction>
+    <instruction order="51" opcode="write">
+        <arg1 type="string">Funkce 2    </arg1>
+    </instruction>
+    <instruction order="52" opcode="return">        
+    </instruction>
+
+    <instruction order="60" opcode="exit">
+        <arg1 type="int">42</arg1>
+    </instruction>
+    
+    
+</program>
+   

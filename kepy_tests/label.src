@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<program language="IPPcode21" name="Stack test">
+    <instruction order="0" opcode="label">
+        <arg1 type="label">karel</arg1>        
+    </instruction>
+
+    
+    
+    
+    <instruction order="3" opcode="pushs">
+        <arg1 type="string">jou jou</arg1>
+    </instruction>      
+
+    <instruction order="10" opcode="defvar">
+        <arg1 type="var">GF@lopata</arg1>
+    </instruction>
+
+    <instruction order="12" opcode="pops">
+        <arg1 type="var">GF@lopata</arg1>
+    </instruction>   
+     
+
+      <instruction order="30" opcode="label">
+        <arg1 type="label">karels</arg1>        
+    </instruction>
+
+    <instruction order="31" opcode="defvar">
+        <arg1 type="var">GF@fiskus</arg1>
+    </instruction>
+    <instruction order="32" opcode="defvar">
+        <arg1 type="var">GF@random</arg1>
+    </instruction>
+</program>
+   

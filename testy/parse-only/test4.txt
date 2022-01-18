@@ -1,0 +1,7 @@
+.IPPCODE21
+DEFVAR GF@result
+MOVE GF@result int@0 #init
+DEFVAR GF@result2
+MOVE GF@result string@<>&s #init2
+
+

@@ -1,0 +1,18 @@
+.ippcode21
+DEFVAR GF@counter
+DEFVAR GF@counter2
+ADD GF@counter int@8 int@250
+SUB GF@counter2 GF@counter int@88
+MUL GF@counter2 GF@counter int@8
+IDIV GF@counter GF@counter int@3
+DEFVAR GF@condition
+DEFVAR GF@condition2 
+LT GF@condition GF@counter GF@counter2
+GT GF@condition2 GF@counter GF@counter2
+EQ GF@condition GF@counter GF@counter2
+AND GF@condition GF@condition 	GF@condition2
+OR GF@condition GF@condition   GF@condition2
+NOT GF@condition GF@condition
+DEFVAR LF@char
+INT2CHAR LF@char int@64
+STRI2INT GF@counter LF@char int@0 

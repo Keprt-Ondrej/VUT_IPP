@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<program language="IPPcode21" name="Stack test">   
+
+    <instruction order="1" opcode="createframe">     
+    </instruction>
+    <instruction order="2" opcode="pushframe">     
+    </instruction>
+    <instruction order="3" opcode="createframe">     
+    </instruction>
+    <instruction order="4" opcode="pushframe">     
+    </instruction>
+
+    <instruction order="5" opcode="defvar">
+        <arg1 type="var">GF@karel</arg1>
+    </instruction>
+     <instruction order="6" opcode="defvar">
+        <arg1 type="var">LF@lopata</arg1>
+    </instruction>
+    <instruction order="7" opcode="move">
+        <arg1 type="var">LF@lopata</arg1>
+        <arg2 type="string">řetězec\032s\032lomítkem\032\092\032a\010novým\035řádkem</arg2>
+    </instruction>
+    <instruction order="8" opcode="move">
+        <arg1 type="var">GF@karel</arg1>
+        <arg2 type="var">LF@lopata</arg2>
+    </instruction>
+    <instruction order="9" opcode="defvar">
+        <arg1 type="var">LF@homoklada</arg1>
+    </instruction>
+    <instruction order="10" opcode="createframe">     
+    </instruction>
+
+    <instruction order="11" opcode="defvar">
+        <arg1 type="var">TF@karlikos</arg1>
+    </instruction>
+    <instruction order="12" opcode="move">
+        <arg1 type="var">TF@karlikos</arg1>
+        <arg2 type="var">LF@lopata</arg2>
+    </instruction>
+
+    <instruction order="13" opcode="write">
+        <arg1 type="var">TF@karlikos</arg1>
+    </instruction>
+
+    
+
+
+
+
+
+
+
+</program>
+   

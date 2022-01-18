@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<program language="IPPcode21" name="Stack test"> 
+    <instruction order="0" opcode="defvar">
+        <arg1 type="var">GF@op1</arg1>
+    </instruction>
+    <instruction order="1" opcode="move">
+        <arg1 type="var">GF@op1</arg1>
+        <arg2 type="nil">nil</arg2>
+    </instruction>
+
+    <instruction order="2" opcode="defvar">
+        <arg1 type="var">GF@op2</arg1>
+    </instruction>   
+    <instruction order="3" opcode="move">
+        <arg1 type="var">GF@op2</arg1>
+        <arg2 type="bool">true</arg2>
+    </instruction>
+
+    <instruction order="4" opcode="jumpifeq">
+        <arg1 type="label">konec</arg1> 
+        <arg2 type="var">GF@op1</arg2>
+        <arg3 type="var">GF@op2</arg3>
+    </instruction>
+    <instruction order="5" opcode="write">
+        <arg1 type="string">Byl jsi tu zacatek\010</arg1>
+    </instruction>   
+
+    <instruction order="28" opcode="write">
+        <arg1 type="string">Byl jsi tu konec\010</arg1>
+    </instruction>
+
+    <instruction order="29" opcode="label">
+        <arg1 type="label">konec</arg1>        
+    </instruction>
+
+    <instruction order="30" opcode="write">
+        <arg1 type="string">Dosel jsi na konec\010</arg1>
+    </instruction>
+</program>

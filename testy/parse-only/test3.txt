@@ -1,0 +1,11 @@
+.IPPCODE21
+CREATEframE 
+DEFVaR	 TF@callee 
+PUSHFRAME
+CAll funckia
+label funckia
+POPFRAME
+pushs string@test?784547238;'';'	
+pops tf@callee # vrat hodnotu
+retuRN
+ 

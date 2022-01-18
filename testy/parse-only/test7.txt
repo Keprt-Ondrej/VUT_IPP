@@ -1,0 +1,4 @@
+.ippcode21
+DEFVAR LF@text
+MOVE LF@text string@Ψjecool
+WRITE string@c😍unter

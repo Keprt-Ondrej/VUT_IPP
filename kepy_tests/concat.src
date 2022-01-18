@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<program language="IPPcode21" name="Stack test"> 
+    <instruction order="0" opcode="defvar">
+        <arg1 type="var">GF@result</arg1>
+    </instruction>
+
+    <instruction order="1" opcode="concat">
+        <arg1 type="var">GF@result</arg1>
+        <arg2 type="string">hello </arg2>
+        <arg3 type="string">5</arg3>
+    </instruction>
+    <instruction order="5" opcode="defvar">
+        <arg1 type="var">GF@hello</arg1>
+    </instruction>
+
+</program>

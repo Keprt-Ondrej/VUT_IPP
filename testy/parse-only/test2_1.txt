@@ -1,0 +1,12 @@
+.ippcode21
+defvar LF@result
+add LF@result int@78 int@-9
+label while
+JUMPIFEQ end LF@result int@8
+write string@menime_premen+u,lebo_treba*
+sub LF@result LF@result int@2
+defvar LF@con
+LT LF@con LF@result int@0
+JUMPIFEQ end LF@con bool@true
+jump while
+label end
